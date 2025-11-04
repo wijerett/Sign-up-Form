@@ -10,38 +10,51 @@
     <div class="card-container">
       <img class="card-image" src="photo/pexels.jpg" alt="">
       <div class="card-body">
-        <div class="card-heading">Winnett</div>
+        <div class="card-heading">Winnett&#9874</div>
         <p class="card-credit">Photo by <u>Damir K</u> on <u>pexels.com</u></p>
       </div>
     </div>
-    <form action="" method="get" class="sign-up">
-<pre class="heading"> This is not real and anyone who 
+    <div class="heading">
+  <pre class="head"> This is not real and anyone who 
  thinks that it might be could be in
  danger of being called a fool. </pre>
-      <div>
-        <label for="first-name">First Name</label>
-        <input type="text" id="first-name">
+    </div>
+    <form action="" method="get" class="sign-up">
+      <p class="intro">Lets Go!</p>
+      <div class="row-one">
+        <div class="form">
+          
+          <label for="first-name">First Name</label>
+          <input type="text" id="first-name" required>
+        </div>
+        <div class="form">
+          <label for="last-name">Last Name</label>
+          <input type="text" id="last-name" required>
+        </div>
+        <div class="form">
+          <label for="email">Email</label>
+          <input type="email" id="email" required>
+        </div>
       </div>
-      <div>
-        <label for="last-name">Last Name</label>
-        <input type="text" id="last-name">
-      </div>
-      <div>
-        <label for="email">Email</label>
-        <input type="email" id="email">
-      </div>
-      <div>
-        <label for="phone">Phone Number</label>
-        <input type="tel" id="phone">
-      </div>
-      <div>
-        <label for="password">Password</label>
-        <input type="password" id="password">
-      </div>
-      <div>
-        <label for="conf-password">Confirm Password</label>
-        <input type="password" id="conf-password">
+      
+      <div class="row-two">
+        <div class="form">
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" required>
+        </div>
+        <div class="form">
+          <label for="password">Password</label>
+          <input type="password" id="password" required>
+        </div>
+        <div class="form">
+          <label for="conf-password">Confirm Password</label>
+          <input type="password" id="conf-password" required>
+        </div>
       </div>
     </form>
+    <div>
+      <button>Create Account</button>
+    </div>
+    <footer class="footer">Already have an account? <a href="http://www.google.com">Log in</a></footer>
   </body>
 </html>
