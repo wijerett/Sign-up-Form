@@ -129,10 +129,10 @@ body {
   font-family: "raleway", sans-serif;
 }
 
-button {
+ button {
   position: relative;
-  left: 42vw;
-  top: 3vw;
+  left: 4vw;
+  top: 4vw;
   margin: 15px;
   height: 30px;
   width: 160px;
@@ -145,7 +145,7 @@ button {
 .footer {
   position: relative;
   left: 44vw;
-  top: 5vw;
+  top: 7vw;
   font-size: 12px;
   width: 190px;
   font-family: "raleway", sans-serif;
