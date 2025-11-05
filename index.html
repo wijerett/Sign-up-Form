@@ -15,40 +15,45 @@
       </div>
     </div>
     <div class="heading">
-  <pre class="head"> This is not real and anyone who 
- thinks that it might be could be in
- danger of being called a fool. </pre>
+  <pre class="head"> Fill out this form and unlock 
+  the key to ultimate success!
+  </pre>
     </div>
     <form action="" method="get" class="sign-up">
-      <p class="intro">Lets Go!</p>
+      <p class="intro">Fields marked with * are required 
+        <pre class="lets-go">Lets Go!</pre></p>
       <div class="row-one">
         <div class="form">
           
-          <label for="first-name">First Name</label>
-          <input type="text" id="first-name" required>
+          <label for="first-name">First Name*</label>
+          <input type="text" id="first-name" required />
         </div>
         <div class="form">
-          <label for="last-name">Last Name</label>
-          <input type="text" id="last-name" required>
+          <label for="last-name">Last Name*</label>
+          <input type="text" id="last-name" required />
         </div>
         <div class="form">
-          <label for="email">Email</label>
-          <input type="email" id="email" required>
+          <label for="email">Email*</label>
+          <input type="email" id="email" required 
+          pattern=".+@example\.com" size="30" 
+          placeholder="john@example.com" />
         </div>
       </div>
       
       <div class="row-two">
         <div class="form">
           <label for="phone">Phone Number</label>
-          <input type="tel" id="phone" required>
+          <input type="tel" id="phone" placeholder="xxx-xxx-xxxx" />
         </div>
         <div class="form">
-          <label for="password">Password</label>
-          <input type="password" id="password" required>
+          <label for="password">Password*</label>
+          <input type="password" id="password" required
+          minlength="8" maxlength="16"/>
         </div>
         <div class="form">
-          <label for="conf-password">Confirm Password</label>
-          <input type="password" id="conf-password" required>
+          <label for="conf-password">Confirm Password*</label>
+          <input type="password" id="conf-password" required 
+          maxlength="16" minlength="8"/>
         </div>
       </div>
       <button>Create Account</button>

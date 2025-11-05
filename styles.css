@@ -70,7 +70,7 @@ body {
 }
 
 .sign-up {
-  margin-top: 50px;
+  margin-top: 45px;
   position: relative;
   left: 38vw;
   width: 62vw;
@@ -79,10 +79,12 @@ body {
 }
 
 .intro {
-  text-align: left;
-  font-family: "leckerli";
-  margin-left: 56px;
-  padding: 16px;
+  position: relative;
+  left: 6vw;
+  font-family: "leckerli", serif;
+  width: 46vw;
+  font-size: 13px;
+  top: .5vw;
 }
 
 .heading {
@@ -92,6 +94,14 @@ body {
   left: 44vw;
   text-align: left;
   width: 40vw;
+}
+
+.lets-go {
+  position: relative;
+  left: 6vw;
+  padding-top: 7px;
+  font-family: "leckerli", serif;
+  width: 40px;
 }
 
 .head {
@@ -110,9 +120,10 @@ body {
 .form input[type="email"],
 .form input[type="tel"],
 .form input[type="password"] {
-  width: 110px;
+  width: 120px;
   height: 15px;
   font-size: 12px;
+  border: 2px solid black;
 }
 
 .row-one, .row-two {
@@ -132,7 +143,7 @@ body {
  button {
   position: relative;
   left: 4vw;
-  top: 4vw;
+  top: 9vh;
   margin: 15px;
   height: 30px;
   width: 160px;
@@ -140,6 +151,7 @@ body {
   color: whitesmoke;
   font-size: 12px;
   font-family: "raleway", sans-serif;
+  box-shadow: 5px 5px 10px darkolivegreen;
 }
 
 .footer {
@@ -163,4 +175,15 @@ a:link {
 
 a:visited {
   color: blueviolet;
+}
+
+input[type="text"]:invalid,
+input[type="email"]:invalid,
+input[type="tel"]:invalid,
+input[type="password"]:invalid {
+  border: 1px dashed red;
+}
+
+.form input[type="text"]:focus {
+  border-color: blue;
 }
